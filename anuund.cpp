@@ -1,4 +1,3 @@
-// https://www.codechef.com/problems/ANUUND
 #include <iostream>
 
 void swap(int arr[], int index1, int index2) {
