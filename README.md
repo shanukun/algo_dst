@@ -1,4 +1,4 @@
 # algo_dst
 
 Solutions:
-- [SMPAIR] (https://www.codechef.com/problems/SMPAIR)
+- [SMPAIR](https://www.codechef.com/problems/SMPAIR)
