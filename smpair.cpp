@@ -10,7 +10,6 @@ void swap(int arr[], int index1, int index2) {
 }
 
 int findPartition(int arr[], int low, int high) {
-    int partitionVal = arr[low];
     int partitionIndex = low;
 
     for(int i = low + 1; i <= high; i++) {
