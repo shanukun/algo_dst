@@ -1,8 +1,9 @@
 # algo_dst
 
 ## Solutions:
-- [ANUUND](https://www.codechef.com/problems/ANUUND)
-- [CNOTE](https://www.codechef.com/problems/CNOTE)
-- [KTTABLE](https://www.codechef.com/problems/KTTABLE)
-- [LECANDY](https://www.codechef.com/problems/LECANDY)
-- [SMPAIR](https://www.codechef.com/problems/SMPAIR)
+- [anuund](https://www.codechef.com/problems/ANUUND)
+- [cnote](https://www.codechef.com/problems/CNOTE)
+- [kttable](https://www.codechef.com/problems/KTTABLE)
+- [lecandy](https://www.codechef.com/problems/LECANDY)
+- [salary](https://www.codechef.com/problems/SALARY)
+- [smpair](https://www.codechef.com/problems/SMPAIR)
