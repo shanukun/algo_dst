@@ -2,6 +2,7 @@
 
 ## Solutions:
 - [anuund](https://www.codechef.com/problems/ANUUND)
+- [chn15a](https://www.codechef.com/problems/CHN15A)
 - [cnote](https://www.codechef.com/problems/CNOTE)
 - [kttable](https://www.codechef.com/problems/KTTABLE)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
