@@ -8,6 +8,7 @@
 - [csub](https://www.codechef.com/problems/CSUB)
 - [frgtnlng](https://www.codechef.com/problems/FRGTNLNG)
 - [kttable](https://www.codechef.com/problems/KTTABLE)
+- [lapin](https://www.codechef.com/problems/LAPIN)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
 - [salary](https://www.codechef.com/problems/SALARY)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
