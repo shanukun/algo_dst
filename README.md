@@ -13,3 +13,4 @@
 - [lecandy](https://www.codechef.com/problems/LECANDY)
 - [salary](https://www.codechef.com/problems/SALARY)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
+- [stpar](https://www.spoj.com/problems/STPAR/)
