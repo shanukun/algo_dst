@@ -4,6 +4,7 @@
 - [anuund](https://www.codechef.com/problems/ANUUND)
 - [chn15a](https://www.codechef.com/problems/CHN15A)
 - [cnote](https://www.codechef.com/problems/CNOTE)
+- [compiler](https://www.codechef.com/problems/COMPILER)
 - [cops](https://www.codechef.com/problems/COPS)
 - [csub](https://www.codechef.com/problems/CSUB)
 - [frgtnlng](https://www.codechef.com/problems/FRGTNLNG)
