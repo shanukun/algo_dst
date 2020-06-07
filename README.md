@@ -8,6 +8,7 @@
 - [cops](https://www.codechef.com/problems/COPS)
 - [csub](https://www.codechef.com/problems/CSUB)
 - [frgtnlng](https://www.codechef.com/problems/FRGTNLNG)
+- [histogra](https://www.spoj.com/problems/HISTOGRA/)
 - [jnext](http://www.spoj.com/problems/JNEXT/)
 - [kttable](https://www.codechef.com/problems/KTTABLE)
 - [lapin](https://www.codechef.com/problems/LAPIN)
