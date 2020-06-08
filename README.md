@@ -2,6 +2,7 @@
 
 ## Solutions:
 - [anuund](https://www.codechef.com/problems/ANUUND)
+- [cf_281D](https://codeforces.com/problemset/problem/281/D)
 - [chn15a](https://www.codechef.com/problems/CHN15A)
 - [cnote](https://www.codechef.com/problems/CNOTE)
 - [compiler](https://www.codechef.com/problems/COMPILER)
