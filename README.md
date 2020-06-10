@@ -3,6 +3,7 @@
 ## Solutions:
 - [anuund](https://www.codechef.com/problems/ANUUND)
 - [cf_281D](https://codeforces.com/problemset/problem/281/D)
+- [cf_343B](https://codeforces.com/contest/343/problem/B)
 - [cf_797C](https://codeforces.com/contest/797/problem/C)
 - [chn15a](https://www.codechef.com/problems/CHN15A)
 - [cnote](https://www.codechef.com/problems/CNOTE)
