@@ -1,5 +1,8 @@
 # algo_dst
 
+## Algo:
+- gcd
+
 ## Solutions:
 - [anuund](https://www.codechef.com/problems/ANUUND)
 - [cf_281D](https://codeforces.com/problemset/problem/281/D)
