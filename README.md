@@ -21,6 +21,7 @@
 - [lapin](https://www.codechef.com/problems/LAPIN)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
 - [mmass](https://www.spoj.com/problems/MMASS/)
+- [nokio](https://www.codechef.com/problems/NOKIA)
 - [salary](https://www.codechef.com/problems/SALARY)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
 - [stpar](https://www.spoj.com/problems/STPAR/)
