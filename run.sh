@@ -6,6 +6,10 @@ function run_prog() {
     ./a.out
 }
 
-file=$(ls -t | grep ".*\.cpp$" | head -1)
-g++ "$file"
-run_prog
+function find_compile() {
+    file=$(ls -t | grep ".*\.cpp$" | head -1)
+    g++ "$file"
+    run_prog
+}
+
+find_compile
