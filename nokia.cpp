@@ -34,6 +34,7 @@ ll find_max(ll n) {
 
 int main() {
     fastio;
+    readin;
 
     ll n, m;
     ll mx, mn;
