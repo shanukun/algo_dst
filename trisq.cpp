@@ -16,16 +16,8 @@ ll find_sq(ll n) {
     else if (n == 2) {
         return 0;
     }
-    else if (n == 3) {
-        return 0;
-    }
     else {
-        if (n % 2 == 0) {
-            return ((n - 2) + find_sq(n - 2));
-        }
-        else {
-            return ((n - 3) + find_sq(n - 3));
-        }
+        return ((n - 2) / 2 + find_sq(n - 2));
     }
 
 }
@@ -38,7 +30,7 @@ int main() {
 
     tc {
         cin >> b;
-        cout << find_sq(b) / 2 << endl;
+        cout << find_sq(b) << endl;
     }
     return 0;
 }
