@@ -11,9 +11,7 @@ using namespace std;
 
 ll calc(ll n) {
     ll count = 0;
-    repe(k, 1, n) {
-        count += k;
-    }
+    count = (n * (n + 1)) / 2;
     return count;
 }
 
