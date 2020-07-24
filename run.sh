@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 function run_complied_binary() {
     echo "Running"
     echo "-------"
