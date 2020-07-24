@@ -1,9 +1,11 @@
 # algo_dst
 
-## Algo:
+## Algo
+
 - gcd
 
-## Solutions:
+## Solutions
+
 - [anuund](https://www.codechef.com/problems/ANUUND)
 - [cf_281D](https://codeforces.com/problemset/problem/281/D)
 - [cf_343B](https://codeforces.com/contest/343/problem/B)
@@ -14,6 +16,7 @@
 - [compiler](https://www.codechef.com/problems/COMPILER)
 - [cops](https://www.codechef.com/problems/COPS)
 - [csub](https://www.codechef.com/problems/CSUB)
+- [fice](https://www.codechef.com/problems/FICE)
 - [frgtnlng](https://www.codechef.com/problems/FRGTNLNG)
 - [histogra](https://www.spoj.com/problems/HISTOGRA/)
 - [jnext](http://www.spoj.com/problems/JNEXT/)
