@@ -10,18 +10,13 @@ using namespace std;
 #define tc ll T; cin >> T; while(T--)
 
 ll find_sq(ll n) {
-    if (n == 1) {
+    if (n == 1)
         return 0;
-    }
-    else if (n == 2) {
+    else if (n == 2)
         return 0;
-    }
-    else {
+    else
         return ((n - 2) / 2 + find_sq(n - 2));
-    }
-
 }
-
 
 int main() {
     fastio;
