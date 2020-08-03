@@ -22,6 +22,7 @@
 - [jnext](http://www.spoj.com/problems/JNEXT/)
 - [kttable](https://www.codechef.com/problems/KTTABLE)
 - [lapin](https://www.codechef.com/problems/LAPIN)
+- [lfstack](https://www.codechef.com/problems/lfstack)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
 - [mmass](https://www.spoj.com/problems/MMASS/)
 - [nokio](https://www.codechef.com/problems/NOKIA)
