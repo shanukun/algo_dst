@@ -29,4 +29,5 @@
 - [salary](https://www.codechef.com/problems/SALARY)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
 - [stpar](https://www.spoj.com/problems/STPAR/)
+- [tachstck](https://www.codechef.com/problems/TACHSTCK)
 - [trisq](https://www.codechef.com/problems/TRISQ)
