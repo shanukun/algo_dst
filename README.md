@@ -25,6 +25,7 @@
 - [lapin](https://www.codechef.com/problems/LAPIN)
 - [lfstack](https://www.codechef.com/problems/lfstack)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
+- [maxdiff](https://www.codechef.com/problems/MAXDIFF)
 - [mmass](https://www.spoj.com/problems/MMASS/)
 - [nokio](https://www.codechef.com/problems/NOKIA)
 - [salary](https://www.codechef.com/problems/SALARY)
