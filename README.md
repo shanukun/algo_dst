@@ -10,6 +10,7 @@
 - [cf_281D](https://codeforces.com/problemset/problem/281/D)
 - [cf_343B](https://codeforces.com/contest/343/problem/B)
 - [cf_797C](https://codeforces.com/contest/797/problem/C)
+- [chefst](https://www.codechef.com/problems/CHEFST)
 - [chn15a](https://www.codechef.com/problems/CHN15A)
 - [cielrcpt](https://www.codechef.com/problems/CIELRCPT)
 - [ckisshub](https://www.codechef.com/problems/CKISSHUG)
