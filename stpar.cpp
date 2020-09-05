@@ -40,25 +40,23 @@ int main() {
                 qu.pop();
                 tr++;
             }
-            else {
-                if (!st.empty()) {
-                    if (st.top() == tr) {
-                        st.pop();
-                        tr++;
-                    }
-                    else if (st.top() > elem) {
-                        st.push(elem);
-                        qu.pop();
-                    }
-                    else {
-                        fl = 0;
-                        break;
-                    }
+            else if (!st.empty()) {
+                if (st.top() == tr) {
+                    st.pop();
+                    tr++;
                 }
-                else {
+                else if (st.top() > elem) {
                     st.push(elem);
                     qu.pop();
                 }
+                else {
+                    fl = 0;
+                    break;
+                }
+            }
+            else {
+                st.push(elem);
+                qu.pop();
             }
         }
 

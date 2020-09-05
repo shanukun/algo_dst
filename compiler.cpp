@@ -30,17 +30,15 @@ int main() {
                 st.push(expr[i]);
                 lpb++;
             }
+            else if (!st.empty()) {
+                st.pop();
+                count++;
+                if (lpb == count)
+                    maxs = count;
+            }
             else {
-                if (!st.empty()) {
-                    st.pop();
-                    count++;
-                    if (lpb == count)
-                        maxs = count;
-                }
-                else {
-                    count = 0;
-                    break;
-                }
+                count = 0;
+                break;
             }
         }
 
