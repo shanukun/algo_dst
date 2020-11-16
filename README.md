@@ -30,6 +30,7 @@
 - [mmass](https://www.spoj.com/problems/MMASS/)
 - [nokio](https://www.codechef.com/problems/NOKIA)
 - [salary](https://www.codechef.com/problems/SALARY)
+- [savkono](https://www.codechef.com/LRNDSA03/status/SAVKONO)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
 - [stpar](https://www.spoj.com/problems/STPAR/)
 - [tachstck](https://www.codechef.com/problems/TACHSTCK)
