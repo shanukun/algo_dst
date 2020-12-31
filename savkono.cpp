@@ -13,7 +13,6 @@ int main() {
     ll z;
     ll count;
     ll top;
-    ll evac;
 
     tc {
         cin >> n;
@@ -26,27 +25,19 @@ int main() {
             cin >> c;
             pq.push(c);
         }
-
+        
         count = 0;
-        evac = false;
 
-        while(z > 0) {
-            if (pq.top() == 0) {
-                evac = true;
-                break;
-            }
-
+        while(z > 0 && pq.top() != 0) {
             top = pq.top();
-
             z -= top;
-            top /= 2;
 
             pq.pop();
-            pq.push(top);
+            pq.push(top / 2);
 
             count++;
         }
-        if (evac)
+        if (z > 0)
             cout << "Evacuate" << endl;
         else 
             cout << count << endl;
