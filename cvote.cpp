@@ -3,12 +3,13 @@
 using namespace std;
 #define ll long long int
 #define readin freopen("input.txt", "r", stdin)
-#define MOD 1000000007
+#define MOD 1e9+7
 
-string find_top(map<string, int> mp) {
+string find_top(map<string, int> mp)
+{
     string key;
     ll max = 0;
-    for(auto& x: mp) {
+    for (auto &x: mp) {
         if (x.second > max) {
             key = x.first;
             max = x.second;
@@ -17,7 +18,8 @@ string find_top(map<string, int> mp) {
     return key;
 }
 
-int main() {
+int main()
+{
     readin;
 
     map<string, int> chc, coc;
@@ -29,7 +31,7 @@ int main() {
     cin >> no_ch;
     cin >> votes;
 
-    for(ll i = 0; i < no_ch; i++) {
+    for (ll i = 0; i < no_ch; i++) {
         cin >> chn;
         cin >> con;
 
@@ -38,14 +40,13 @@ int main() {
         chco[chn] = con;
     }
 
-    for(ll i = 0; i < votes; i++) {
+    for (ll i = 0; i < votes; i++) {
         cin >> chn;
 
         chc.at(chn) += 1;
         coc.at(chco.at(chn)) += 1;
     }
 
-    cout << find_top(coc) << endl;
-    cout << find_top(chc) << endl;
-
+    cout << find_top(coc) << "\n";
+    cout << find_top(chc) << "\n";
 }
