@@ -6,7 +6,8 @@ using namespace std;
 #define readin freopen("input.txt", "r", stdin)
 #define MOD 1000000007
 
-int main() {
+int main() 
+{
     fastio;
     readin;
 
@@ -38,30 +39,10 @@ int main() {
 
     for (ll k = 0; k < m; k++)
         cout << sml_ind << " " << k << endl;
+
     for (ll l = 0; l < n; l++)
         if (l != sml_ind)
             cout << l << " " << lrg_ind << endl;
-
-    /* ll k = 0; */
-    /* ll l = 0; */
-
-    /* while(s.size() < n + m - 1) { */
-    /*     ll size = s.size(); */
-    /*     sum = nlist[k] + mlist[l]; */
-    /*     itr = s.insert(itr, sum); */
-
-    /*     if (s.size() > size) */
-    /*         cout << k << " " << l << endl; */
-
-    /*     if (l == m - 1 && k == n - 1) { */
-    /*         break; */
-    /*     } */
-    /*     else if (l == m - 1) { */
-    /*         l = -1; */
-    /*         ++k; */
-    /*     } */
-    /*     ++l; */
-    /* } */
 
     return 0;
 }
