@@ -20,6 +20,7 @@
 - [csub](https://www.codechef.com/problems/CSUB)
 - [cvote](https://www.codechef.com/LRNDSA03/problems/CVOTE)
 - [dpairs](https://www.codechef.com/LRNDSA03/problems/DPAIRS/)
+- [exunc](https://www.codechef.com/LRNDSA03/problems/EXUNC/)
 - [fence](https://www.codechef.com/LRNDSA03/problems/FENCE)
 - [fice](https://www.codechef.com/problems/FICE)
 - [frgtnlng](https://www.codechef.com/problems/FRGTNLNG)
