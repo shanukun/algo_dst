@@ -37,5 +37,6 @@
 - [savkono](https://www.codechef.com/LRNDSA03/status/SAVKONO)
 - [smpair](https://www.codechef.com/problems/SMPAIR)
 - [stpar](https://www.spoj.com/problems/STPAR/)
+- [subprnjl](https://www.codechef.com/LRNDSA03/problems/SUBPRNJL)
 - [tachstck](https://www.codechef.com/problems/TACHSTCK)
 - [trisq](https://www.codechef.com/problems/TRISQ)
