@@ -1,0 +1,147 @@
+CP Notes
+========
+
+## Rough Range
+
+- int: -10^9 to 10^9
+- long int: -10^12 to 10^12
+- long long int: -10^18 to 10^18
+
+- long int c = a * 1LL * b; // as a and b are both int, so introducing a 1LL
+long long int will convert the a and b to higher type before calculation.
+
+- NOTE: cout << fixed << c << endl; // to avoid scientific notation(1e10) of c.
+and setprecision(0) can be used to remove decimal points.
+
+- Do not use double or float because of precision errors, although they can 
+store very large numbers but the limitation here is the actual memory, so there
+are high chances that your calculation will not give you accurate answer.
+
+## String
+
+- string str; // it takes input before it encounters a space or newline in stdin.
+- string str; string str2; string res = str + str1; // Possible
+- string can be compared with ==
+- value can be changed with index, str[0] = 'a'; // "a" will not work as it is a
+string.
+- getline(cin, str1); // for taking complete line from stdin
+- issue with getline is that it starts taking input from the last position of 
+of cursor, where cin ignores all the space and newline, so the solution is to 
+use cin.ignore() to push the cursor in next line.
+- use string.push_back() for adding 1 character to end of the string, avoid + 
+operator.
+
+-- Buffers???
+
+
+## Array and Size limits for Local and Global
+
+- Local: No more than 10e5 // for online judge
+
+## Modulo
+
+- (a + b) % m = ((a % m) + (b % m)) % m
+- (a * b) % m = ((a % m) * (b % m)) % m
+- (a - b) % m = ((a % m) - (b % m) + m) % m // extra m so that the term remain +ve
+- (a / b) % m = ((a % m) * (b^-1 % m)) % m
+
+## Precalculation
+
+### Prefix Sum
+
+int ar[5] = {1, 2, 3, 4, 5};
+- calculating the sum of upto ith position and putting on putting that value 
+on ith index
+- so prefix sum of ar is {1, 3, 6, 10, 15}
+
+### Hashing
+
+int ar[5] = {1, 2, 3, 2, 1};
+- using a separate for calculating and storing the frequency of number
+- so here: {0, 2, 2, 1, 0}, count of 0 is 0, count of 1 is 2 and so on
+
+- Example: https://www.hackerrank.com/challenges/crush/problem
+- {0, 2, 0, 0, -2, 0}, a = 1 and b = 3, prefix sum will give final array
+
+## Binary Search
+
+- time complexity -> O(log(N))
+- need a monotonic search space
+- for mid value mid = L + floor((R - L) / 2)
+
+## STL
+
+### Pair
+
+- For maintaing a relationship
+- pair<int, string> p;
+- Add Value
+    cin >> p.first;
+    p = make_pair(2, "abc");
+    p = {2, "abc"};
+- Access
+    p.first, p.second
+- Copy
+    pair<int, string> p1 = p;
+
+### Vector
+
+- vector<int> v; instead of any type we can make a vector of another container.
+- v.push_back(x); add value at the end of the vector.
+- v.size(): O(1)
+- vector<int> v(t); declaring a vector of size t will all value initialized to 0.
+- vector<int> v(t, x); declaring a vector of size t will all value initialized to x.
+- vector<int> v2 = v; copy vector // O(n)
+- vector<int> &v2 = v; reference of vector // O(1)
+- vector<pair<int, int>> v = {{1, 2}, {2, 3}, {3, 4}};
+- vector<int> v[N]; array of vectors of N size
+- vector<vector<int>>; vector of vectors
+- v.push_back(vector<int> v()); pushing empty vector
+
+### Iterators
+
+- pointers like structure
+- vector<int>::iterator it = v.begin(); *it will give the value and *(it + 1) will
+give the next value
+- it++ -> next iterator where it + 1 -> next location, in case of vector both
+of these are same because vector are continous, but maps and sets are not 
+continous
+
+### Maps
+
+- Keys are stored in sorted order; Red-Black tree
+- map<int, string> m; m[1] = "abc"; m[2] = "cdc";
+- map<int, string> m; m.insert({4, "abc"});
+- iterator: map<int, string>::iterator it; it->first and it->second for accesing values
+- m[1] = "abc"; // O(log(n)) insertion, n is the current size of map
+- m[6]; empty string; insertion O(log(n))
+- in case of map<int, int> m; m[1]; // value of m[1] will be initialized to 0;
+- auto it = m.find(3); // find returns an iterator // O(log(n))
+- m.erase(T); T can be a key and an iterator // O(log(n))
+- m.erase(m.end()); will give error so check
+- m.clear(); // delete all values
+- in case the key is string; string comparison time is also get added 
+
+- unordered_map<int, string> m; // order is not maintained here
+- inbuilt implementation uses hash-table
+- unordered_map; insertion and access // O(1)
+- m.find(); m.erase() // O(1)
+- allowed datatype are primitive
+
+- multimap: same key can be inserted
+
+### Set
+
+- basically maps without value part
+- only store unique elements
+- set<string> s; s.insert("ss"); // insertion O(log(n))
+- auto it = s.find("ss"); // No other way to access
+
+- uordered_set<string> s;
+- find and insertion // O(1)
+- only primitive data types
+ 
+- multiset<string> s; allow duplicates, sorted
+- insertion and find // O(logn)
+- erase() will delete 1 value of duplicates if we pass iterator otherwise both
+
