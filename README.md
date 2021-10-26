@@ -31,6 +31,8 @@
 - [lapin](https://www.codechef.com/problems/LAPIN)
 - [lecandy](https://www.codechef.com/problems/LECANDY)
 - [lfstack](https://www.codechef.com/problems/lfstack)
+- [lowsum](https://www.codechef.com/LRNDSA04/problems/LOWSUM)
+- [ashigift](https://www.codechef.com/LRNDSA04/problems/ASHIGIFT)
 - [maxdiff](https://www.codechef.com/problems/MAXDIFF)
 - [mmass](https://www.spoj.com/problems/MMASS/)
 - [nokio](https://www.codechef.com/problems/NOKIA)
