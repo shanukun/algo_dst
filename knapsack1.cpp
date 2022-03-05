@@ -1,25 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
-int wt[107], vl[107];
+#define debug(x) cerr << #x << " " << x << endl
+#define int long long
 
-long long dp[107][100007];
-long long knap(int w, int i) {
-    if (w == 0) return 0;
-    if (i < 0) return 0; 
-    if (dp[i][w] != -1) return dp[i][w];
-
-    long long mx = knap(w, i - 1);
-    if (w - wt[i] >= 0)
-        mx = max(mx, vl[i] + knap(w - wt[i], i - 1));
-    return dp[i][w] = mx;
-}
-
-int main() {
-    memset(dp, -1, sizeof(dp));
+int32_t main() {
     int n, w;
     cin >> n >> w;
+    int wt[n], vl[n];
 
     for (int i = 0; i < n; i++) 
         cin >> wt[i] >> vl[i];
-    cout << knap(w, n - 1) << endl;
+
+    int dp[n][w + 1];
+    for (int i = 0; i < n; i++) 
+        dp[i][0] = 0;
+
+    for (int i = 0; i <= w; i++) {
+        if (wt[0] <= i)
+            dp[0][i] = vl[0];
+        else
+            dp[0][i] = 0;
+    }
+
+    for (int i = 1; i < n; i++) {
+        for (int j = 1; j <= w; j++) {
+            int p = 0, q = 0;
+
+            if (wt[i] <= j) {
+                p = vl[i] + dp[i - 1][j - wt[i]];
+            }
+
+            q = dp[i - 1][j];
+
+            dp[i][j] = max(p, q);
+        }
+    }
+
+    cout << dp[n - 1][w] << endl;
+
 }
