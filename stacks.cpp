@@ -1,19 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define int long long
 
-int b_search(long long int elem, vector<long long int> &v)
+int b_search(int elem, vector<int> &v)
 {
-    int mid;
-    int low = 0;
-    int high = v.size() - 1;
-    long long int ans = -1;
-    while (low <= high) {
-        mid = low + (high - low) / 2;
+    int lo = 0;
+    int hi = v.size() - 1;
+    int ans = -1;
+    while (lo <= hi) {
+        int mid = lo + (hi - lo) / 2;
         if (v[mid] > elem) {
             ans = mid;
-            high = mid - 1;
+            hi = mid - 1;
         } else {
-            low = mid + 1;
+            lo = mid + 1;
         }
     }
     if (ans != -1) {
@@ -23,21 +23,22 @@ int b_search(long long int elem, vector<long long int> &v)
     return 0;
 }
 
-int main()
+int32_t main()
 {
     int t, n;
     cin >> t;
+
     while (t--) {
         cin >> n;
-        vector<long long int> v;
-        long long int elem;
+        vector<int> v;
+        int elem;
         for (int i = 0; i < n; i++) {
             cin >> elem;
             if (!b_search(elem, v))
                 v.push_back(elem);
         }
         cout << v.size() << " ";
-        for (int i = 0; i < v.size(); i++) 
+        for (int i = 0; i < (int) v.size(); i++) 
             cout << v[i] << " ";
         cout << "\n";
     }

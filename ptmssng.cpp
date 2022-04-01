@@ -11,10 +11,13 @@ int32_t main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> v(n);
-        for (int i = 0; i < n; i++)
-            cin >> v[i];
-        sort(v.begin(), v.end());
-        cout << v[0] + v[1] << endl;
+        int a, b;
+        int x = 0, y = 0;
+        for (int i = 1; i <= 4 * n - 1; i++) {
+            cin >> a >> b;
+            x ^= a;
+            y ^= b;
+        }
+        cout << x << " " << y << endl;
     }
 }

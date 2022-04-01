@@ -9,12 +9,10 @@ int32_t main() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        vector<int> v(n);
-        for (int i = 0; i < n; i++)
-            cin >> v[i];
-        sort(v.begin(), v.end());
-        cout << v[0] + v[1] << endl;
+        int l, r;
+        cin >> l >> r;
+        int n = r - l + 1;
+        int ans = n + (n - 1);
+        cout << ans << endl;
     }
 }

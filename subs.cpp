@@ -9,12 +9,16 @@ int32_t main() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
+        int n, k;
+        cin >> n >> k;
         vector<int> v(n);
         for (int i = 0; i < n; i++)
             cin >> v[i];
         sort(v.begin(), v.end());
-        cout << v[0] + v[1] << endl;
+        int md = INT_MAX;
+        for (int i = 0; i + k - 1 < n; i++) {
+            md = min(md, v[i + k - 1] - v[i]);
+        }
+        cout << md << endl;
     }
 }
