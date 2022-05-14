@@ -8,11 +8,11 @@ int32_t main() {
     cin >> n >> w;
     int wt[n], vl[n];
 
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
         cin >> wt[i] >> vl[i];
 
     int dp[n][w + 1];
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
         dp[i][0] = 0;
 
     for (int i = 0; i <= w; i++) {
@@ -25,17 +25,11 @@ int32_t main() {
     for (int i = 1; i < n; i++) {
         for (int j = 1; j <= w; j++) {
             int p = 0, q = 0;
-
-            if (wt[i] <= j) {
-                p = vl[i] + dp[i - 1][j - wt[i]];
-            }
-
+            if (wt[i] <= j) p = vl[i] + dp[i - 1][j - wt[i]];
             q = dp[i - 1][j];
-
             dp[i][j] = max(p, q);
         }
     }
 
     cout << dp[n - 1][w] << endl;
-
 }
